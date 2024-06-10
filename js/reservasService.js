@@ -1,6 +1,6 @@
 import { Database, STORE_NAME } from "./db.js";
 
-export class TaskService {
+export class ReservasService {
   /**
    * Agrega una nueva tarea a la base de datos.
    * @param {Object} reserva - La tarea que se va a agregar.
