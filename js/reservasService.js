@@ -6,7 +6,7 @@ export class ReservasService {
    * @param {Object} reserva - La tarea que se va a agregar.
    * @returns {Promise<void>} Una promesa que se resuelve cuando la tarea se ha agregado con éxito.
    */
-  static async addTask(reserva) {
+  static async addReserva(reserva) {
     // Abre la base de datos
     return Database.openDB().then((db) => {
       // Retorna una nueva promesa para manejar la asincronía de la operación
