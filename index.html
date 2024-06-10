@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Alejandro Peco</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de reservas</h1>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" required name="nombre" id="nombre" placeholder="Nombre"> 
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" required name="apellido" id="apellido" placeholder="Apellido"> 
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="text" required name="telefono" id="telefono" placeholder="Teléfono"> 
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" required name="email" id="email" placeholder="Email"> 
+            </div>
+            <div>
+                <label for="email">Cantidad de días</label>
+                <input type="number" required name="email" id="dias" placeholder="Días de estadía">
+            </div>
+            <div>
+                <label for="habitacion">Habitación</label>
+                <select name="habitacion" required id="selectHabitaciones">
+                    <option value="individual">Individual</option>
+                    <option value="doble">Doble</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+            <input id="btRegistrar" type="submit" value="Registrar">
+        </form>
+        <div class="containerRegistros">
+
+        </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
